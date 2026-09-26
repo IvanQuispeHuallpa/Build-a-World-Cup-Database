@@ -41,3 +41,7 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ls --color=auto
 git status
 pwd
+ls --color=auto
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+ls --color=auto
+git add .

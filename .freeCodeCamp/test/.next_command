@@ -45,3 +45,17 @@ ls --color=auto
 pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 ls --color=auto
 git add .
+git remote add origin https://github.com/IvanQuispeHuallpa/Build-a-World-Cup-Database.git
+git branch -M main
+git commit -m "first commit"
+git push -u origin main
+ls --color=auto
+ls --color=auto -la
+cd /workspace/project/.freeCodeCamp
+npm run programmatic-test
+clear
+ls --color=auto
+git add .
+git status
+git add .freeCodeCamp/test/.cwd .freeCodeCamp/test/.next_command
+git add .
